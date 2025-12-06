@@ -26,4 +26,20 @@ L'IA va générer le code Python pour créer le notebook `.ipynb` directement, s
 
 ---
 
-*Ce document certifie l'interaction et le cadrage du projet avec l'assistant IA.*
+
+---
+
+## Itération 1 : Corrections Méthodologiques (Demandées par Data Analyst IA)
+
+**Anomalies identifiées dans la V1 :**
+1. **Perte massive de données (33%)** due à un filtrage Outliers trop strict (IQR Standard).
+2. **Insight contre-intuitif non expliqué** : Les pros sont moins chers que les particuliers.
+3. **Données manquantes** sur les prix non mentionnées explicitement.
+
+**Corrections Apportées (V2) :**
+- **Outliers :** Passage au seuil du **99ème percentile** (conservation du top 1% extrême uniquement) au lieu de l'IQR 1.5. Cela permet de garder les biens de luxe légitimes.
+- **Hôtes :** Reformulation de l'insight Business. Les pros sont moins chers car ils optimisent le taux d'occupation sur des biens standardisés (studios/T2), contrairement aux particuliers louant leur résidence principale.
+- **Prix manquants :** Ajout d'une note explicite sur l'exclusion des 3457 listings sans prix.
+
+**Statut :** Notebook régénéré (`oslo_airbnb_EDA.ipynb`) avec ces ajustements.
+
