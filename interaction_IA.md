@@ -1,3 +1,7 @@
+IA Utilisé pour le projet : Claude 4.5 sonnet (Thinking), Claude 4.5 Opus(Thinking), Antigravity avec Gemini 3 pro (Thinking), GPT OSS 120B, mes modèles en locales pour le code et en réflexion synthétique (Ministral_3_14B_Instruc, Codex, Qwen2.5, Ministral-3-14B-Reasoning-2512)
+
+J'ai essayé de récupérer un maximum des échanges mais vu que ces des utilisations spécifiques à chaque fois et que j'utilise majoritairement du Text-to-Speech, les échanges peuvent être décousus. Et pareil, l'utilisation de multimodalité pour la réflexion synthétique n'est pas compatible avec le texte nécessaire au rendu.
+
 # Interaction IA - Projet Airbnb Oslo
 
 ## Master Prompt 
@@ -2743,3 +2747,7 @@ je veins de peaufiner encore le notebook tout seul, notamment sur l'analyse et l
 *User accepted the command `python append_regression_section.py`*
 
 *User accepted the command `del append_regression_section.py`*
+
+# Conversation 4 
+
+Voir PDF d'export de la discussion pour plus de détails
