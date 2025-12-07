@@ -1,18 +1,11 @@
 ---
 marp: true
-theme: default
-paginate: true
-backgroundColor: #fff
-style: |
-  section {
-    font-family: 'Arial', sans-serif;
-  }
-  h1 {
-    color: #2c3e50;
-  }
-  h2 {
-    color: #e74c3c;
-  }
+class: lead
+paginate: false
+theme: gaia
+style: "section { font-size: 20px; }"
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+bakcgroundColor: "#fff"
 ---
 
 # Analyse du marché Airbnb : Oslo
@@ -20,7 +13,7 @@ style: |
 
 ---
 
-## Contexte & Objectifs
+# Contexte & Objectifs
 
 **Objectifs du projet :**
 *   Comprendre la dynamique du marché locatif saisonnier à Oslo.
@@ -29,11 +22,11 @@ style: |
 
 **Méthodologie :**
 *   **Données :** InsideAirbnb (listings Oslo).
-*   **Approche :** Nettoyage rigoureux, EDA (Exploratory Data Analysis), Segmentation, et Modélisation (Régression Linéaire).
+*   **Approche :** Nettoyage rigoureux, EDA (Exploratory Data Analysis), Segmentation et Modélisation via Régression Linéaire.
 
 ---
 
-## Vue d’ensemble du dataset
+# Vue d’ensemble du dataset
 
 *   **Données brutes :** ~12 000 listings.
 *   **Données nettoyées :** ~8 700 listings exploitables (avec prix).
@@ -44,7 +37,7 @@ style: |
 
 ---
 
-## Distribution des Prix (Avant Nettoyage)
+# Distribution des Prix (Avant Nettoyage)
 
 *   Distribution très asymétrique (longue traîne à droite).
 *   Présence de valeurs extrêmes (outliers) nécessitant un filtrage pour une analyse économique pertinente.
@@ -54,7 +47,7 @@ style: |
 
 ---
 
-## Distribution des Prix (Après Nettoyage)
+# Distribution des Prix (Après Nettoyage)
 
 **Zoom sur le cœur du marché (1er - 99ème centile) :**
 *   La majorité des offres se situe dans une fourchette standard.
@@ -65,7 +58,7 @@ style: |
 
 ---
 
-## Analyse par Quartiers
+# Analyse par Quartiers
 
 **Disparités géographiques :**
 *   Les quartiers centraux (ex: Frogner, Sentrum) affichent les prix médians les plus élevés.
@@ -76,7 +69,7 @@ style: |
 
 ---
 
-## Analyse des Hôtes & Avis
+# Analyse des Hôtes & Avis
 
 *   **Corrélation faible** entre prix et nombre d'avis.
 *   **Disponibilité :** Les logements très disponibles avec peu d'avis signalent souvent des nouveautés ou des prix inadaptés.
@@ -87,7 +80,7 @@ style: |
 
 ---
 
-## Segmentation de l'Offre
+# Segmentation de l'Offre
 
 Une segmentation **Budget / Mid / Luxe** a été établie basée sur les terciles de prix.
 
@@ -99,7 +92,7 @@ Une segmentation **Budget / Mid / Luxe** a été établie basée sur les tercile
 
 ---
 
-## Modélisation : Régression Linéaire
+# Modélisation : Régression Linéaire
 
 **Performance du modèle :**
 *   **R² ≈ 0.18** : Le modèle explique ~18% de la variance des prix.
@@ -114,7 +107,7 @@ Une segmentation **Budget / Mid / Luxe** a été établie basée sur les tercile
 
 ---
 
-## Insights Clés (Synthèse)
+# Insights Clés (Synthèse)
 
 1.  **Structure de l'offre** : Dominée par les "Entire home/apt", ce qui tire les prix vers le haut.
 2.  **Localisation** : Frogner et Sentrum sont les zones "Premium".
@@ -123,7 +116,7 @@ Une segmentation **Budget / Mid / Luxe** a été établie basée sur les tercile
 
 ---
 
-## Recommandations Stratégiques
+# Recommandations Stratégiques
 
 Pour un investisseur :
 
@@ -133,7 +126,7 @@ Pour un investisseur :
 
 ---
 
-## Conclusion & Limites
+# Conclusion & Limites
 
 **Conclusion :**
 Le marché d'Oslo est mature, structuré autour du centre-ville et fortement segmenté par le type de bien. La localisation reste un marqueur fort de valeur.
