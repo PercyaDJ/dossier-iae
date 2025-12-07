@@ -6,10 +6,11 @@ theme: gaia
 style: "section { font-size: 20px; }"
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 bakcgroundColor: "#fff"
+footer: '![image](img/logo.png)'
 ---
 
 # Analyse du marché Airbnb : Oslo
-### Projet de groupe – M2 CMSI
+### Projet de groupe M2 CMSI
 
 ---
 
@@ -33,7 +34,7 @@ bakcgroundColor: "#fff"
 *   **Variables clés :** `price`, `neighbourhood`, `room_type`, `number_of_reviews`, `availability_365`.
 
 <!-- Insérer ici une capture du df.head() ou df.info() issue du notebook -->
-![width:900px](img/dataset_overview_placeholder.png)
+![bg right 80%](img/dataset_overview_placeholder.png)
 
 ---
 
@@ -65,7 +66,7 @@ bakcgroundColor: "#fff"
 *   Les quartiers périphériques offrent des alternatives plus abordables.
 
 <!-- Insérer ici le Boxplot : Prix par Quartier -->
-![width:900px](img/boxplot_neighbourhood.png)
+![width:750px](img/boxplot_neighbourhood.png)
 
 ---
 
@@ -76,7 +77,7 @@ bakcgroundColor: "#fff"
 *   **Demande :** Forte tension sur les biens "Budget" bien situés.
 
 <!-- Insérer ici le Scatterplot : Reviews vs Availability ou Prix vs Reviews -->
-![width:800px](img/scatter_reviews.png)
+![width:700px](img/scatter_reviews.png)
 
 ---
 
@@ -103,7 +104,7 @@ Une segmentation **Budget / Mid / Luxe** a été établie basée sur les tercile
 *   `Neighbourhood` : Impact significatif mais secondaire.
 
 <!-- Insérer ici le tableau des résultats R2/RMSE ou le graphique des coefficients -->
-![width:800px](img/regression_results.png)
+![bg right 90%](img/regression_results.png)
 
 ---
 
