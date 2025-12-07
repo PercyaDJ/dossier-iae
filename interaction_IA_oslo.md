@@ -1755,4 +1755,18 @@ Si tu veux, je peux aussi **scanner ton notebook entier** pour rendre toutes les
 * sans warning
 * cohérentes pour un rendu académique ou professionnel.
 
+---
+
+## Itération Discussion 3 : Extension "Projet de Groupe" (Modélisation)
+
+**Objectif :** Ajouter la partie "Régression des Prix" demandée pour le projet de groupe, sans altérer l'analyse existante.
+
+**Ajouts Majeurs dans le Notebook (`oslo_airbnb_EDA.ipynb`) :**
+1.  **Section 11 : Modélisation des Prix (Projet de Groupe)**
+    - Ajoutée en *append* à la fin du notebook (Section 11), préservant intactes les sections 1 à 10 (Projet Individuel).
+    - **Contenu :** Feature Engineering, Régression Linéaire, Analyse des Coefficients.
+
+**Statut :** Le notebook contient désormais l'EDA complète (Individuel) + la Modélisation (Groupe). Il est prêt à être utilisé pour Oslo et dupliqué pour Amsterdam (en ignorant la section 11 pour l'individuel).
+
+
 
